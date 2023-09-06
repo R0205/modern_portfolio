@@ -16,7 +16,8 @@ $background-opacity: 0.6;
             background-attachment: fixed;
             background-size: cover;
 
-            &:after {// this used for psudo element thats for overlay imaging the css that is on the html  
+            &:after {
+                // this used for psudo element thats for overlay imaging the css that is on the html  
                 content: '';
                 position: absolute;
                 top: 0;
@@ -31,7 +32,8 @@ $background-opacity: 0.6;
     }
 }
 
-
+@import 'config';
+@import 'menu';
 
 * {
     // for slecting all complete page
