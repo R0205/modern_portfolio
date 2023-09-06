@@ -1,0 +1,7 @@
+$primary-color: #444; // variable = values;
+
+body {
+    background: $primary-color; // here we are reusing the variable
+    color: white;
+}
+
